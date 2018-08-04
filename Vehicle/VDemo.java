@@ -9,7 +9,7 @@ public class VDemo {
 		
 		for(int i=0;i<3;i++)
 		{
-			if(vehicle[i].getClass().getName().equals("ThreeWheeler"))
+			if(vehicle[i].getClass().getName().equals("ThreeWheeler")) //call the object which has the same name as mentioned
 			{
 				vehicle[i].start();
 			}
